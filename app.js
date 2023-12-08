@@ -57,5 +57,5 @@ app.post("/upload", (req, res) => {
 })
 
 app.listen(process.env.PORT, () => {
-    console.log("port 3000")
+    console.log(`port ${process.env.PORT}`)
 })
